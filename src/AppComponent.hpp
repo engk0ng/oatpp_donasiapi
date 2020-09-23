@@ -40,8 +40,8 @@ public:
     }());
 
     OATPP_CREATE_COMPONENT(std::shared_ptr<koloboot::db::Database>, database)([]{
-        mongocxx::uri uri {"mongodb://heroku_7kjn7vwh:h81mhhqnbed6dlvggvdf6r1ovv@ds121464.mlab.com:21464/heroku_7kjn7vwh?retryWrites=false"};
-        return std::make_shared<koloboot::db::Database>(uri, "heroku_7kjn7vwh", "rekap");
+        mongocxx::uri uri {""};
+        return std::make_shared<koloboot::db::Database>(uri, "", "");
     }());
 };
 
