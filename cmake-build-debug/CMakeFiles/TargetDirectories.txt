@@ -1,0 +1,6 @@
+/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/CMakeFiles/donasi-api-exe.dir
+/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/CMakeFiles/test.dir
+/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/CMakeFiles/donasi-api-test.dir
+/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/CMakeFiles/donasi-api-lib.dir

@@ -1,0 +1,18 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/abumuhammad/Documents/C++/qsapi/donasi-api
+-- The CXX compiler identification is AppleClang 11.0.0.11000033
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+LIBBSONCXX_INCLUDE_DIRS=
+LIBBSONCXX_LIBRARIES=
+LIBMONGOCXX_INCLUDE_DIRS=
+LIBMONGOCXX_LIBRARIES=
+-- Found OpenSSL: /usr/lib/libcrypto.dylib (found version "1.1.1g")  
+LIBRARIES = 
+mongo::mongocxx_shared is used
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug

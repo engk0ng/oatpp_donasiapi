@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abumuhammad/Documents/C++/qsapi/donasi-api/test/tests.cpp
+oatpp-test/UnitTest.hpp
+/Users/abumuhammad/Documents/C++/qsapi/donasi-api/test/oatpp-test/UnitTest.hpp
+iostream
+-
+
+/usr/local/include/oatpp-1.1.0/oatpp/oatpp-test/UnitTest.hpp
+oatpp/core/base/Environment.hpp
+/usr/local/include/oatpp-1.1.0/oatpp/oatpp-test/oatpp/core/base/Environment.hpp
+
+/usr/local/include/oatpp-1.1.0/oatpp/oatpp/core/base/Config.hpp
+
+/usr/local/include/oatpp-1.1.0/oatpp/oatpp/core/base/Environment.hpp
+./Config.hpp
+/usr/local/include/oatpp-1.1.0/oatpp/oatpp/core/base/Config.hpp
+stdio.h
+-
+atomic
+-
+mutex
+-
+string
+-
+unordered_map
+-
+memory
+-
+stdexcept
+-
+stdlib.h
+-
+

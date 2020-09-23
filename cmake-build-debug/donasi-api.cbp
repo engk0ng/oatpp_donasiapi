@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="donasi-api"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\mongocxx-3.5.1\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.5.1\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-0.19.9\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-1.1.0\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-mongo-1.1.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="donasi-api-exe">
+				<Option output="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/donasi-api-exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/third_party/jwt-cpp"/>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp-mongo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 donasi-api-exe"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="donasi-api-exe/fast">
+				<Option output="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/donasi-api-exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/third_party/jwt-cpp"/>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp-mongo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 donasi-api-exe/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="donasi-api-test">
+				<Option output="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/donasi-api-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/third_party/jwt-cpp"/>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp-mongo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 donasi-api-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="donasi-api-test/fast">
+				<Option output="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/donasi-api-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/third_party/jwt-cpp"/>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp-mongo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 donasi-api-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="donasi-api-lib">
+				<Option output="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/libdonasi-api-lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/third_party/jwt-cpp"/>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp-mongo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 donasi-api-lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="donasi-api-lib/fast">
+				<Option output="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/libdonasi-api-lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/third_party/jwt-cpp"/>
+					<Add directory="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.1.0/oatpp-mongo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 donasi-api-lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abumuhammad/Documents/C++/qsapi/donasi-api/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/App.cpp">
+			<Option target="donasi-api-exe"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/AppComponent.hpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/basecontroller.cpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/basecontroller.hpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/controller/mycontroller.cpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/controller/mycontroller.hpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/db/Model.hpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/db/basedb.cpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/db/basedb.hpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/db/database.cpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/db/database.hpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/dto/MyDTOs.hpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/sha256.cpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/src/sha256.hpp">
+			<Option target="donasi-api-lib"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/test/tests.cpp">
+			<Option target="donasi-api-test"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/mongocxx-3.5.1/mongocxx-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\mongocxx-3.5.1\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/mongocxx-3.5.1/mongocxx-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\mongocxx-3.5.1\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/mongocxx-3.5.1/mongocxx_targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\mongocxx-3.5.1\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/mongocxx-3.5.1/mongocxx_targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\mongocxx-3.5.1\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/bsoncxx-3.5.1/bsoncxx-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.5.1\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/bsoncxx-3.5.1/bsoncxx-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.5.1\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/bsoncxx-3.5.1/bsoncxx_targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.5.1\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/bsoncxx-3.5.1/bsoncxx_targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.5.1\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-0.19.9/oatppConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-0.19.9\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-1.1.0/oatppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-1.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-1.1.0/oatppConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-1.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-1.1.0/oatppTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-1.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-1.1.0/oatppTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-1.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-mongo-1.1.0/oatpp-mongoConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-mongo-1.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-mongo-1.1.0/oatpp-mongoConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-mongo-1.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-mongo-1.1.0/oatpp-mongoTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-mongo-1.1.0\"/>
+		</Unit>
+		<Unit filename="/Users/abumuhammad/Documents/C++/qsapi/donasi-api/../../../../../../usr/local/lib/cmake/oatpp-mongo-1.1.0/oatpp-mongoTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\oatpp-mongo-1.1.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

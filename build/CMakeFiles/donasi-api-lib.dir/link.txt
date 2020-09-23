@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libdonasi-api-lib.a  CMakeFiles/donasi-api-lib.dir/src/db/basedb.cpp.o CMakeFiles/donasi-api-lib.dir/src/db/database.cpp.o CMakeFiles/donasi-api-lib.dir/src/controller/mycontroller.cpp.o CMakeFiles/donasi-api-lib.dir/src/basecontroller.cpp.o CMakeFiles/donasi-api-lib.dir/src/sha256.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libdonasi-api-lib.a
